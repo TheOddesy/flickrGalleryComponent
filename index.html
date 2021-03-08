@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Flickr Gallery</title>
+    <meta name="Nicolas" content="Placeholder for a flickr gallery" />
+
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="shortcut icon" type="image/png" href="img/aperture-2x.png" />
+
+    <!-- The stylesheet to be imported -->
+    <link rel="stylesheet" href="flickrGalleryComponent/css/flickrGallery.css" />
+  </head>
+
+  <body>
+    <div class="grid-container">
+      <div class="header bord-rad dark-color"><p>HEADER</p></div>
+      <div class="nav bord-rad dark-color"><p>NAVIGATION</p></div>
+      <div class="sidebar-left bord-rad dark-color"><p>LEFT SIDEBAR</p></div>
+      <div class="sidebar-right bord-rad dark-color"><p>RIGHT SIDEBAR</p></div>
+      <div class="main-content">
+        <!-- The developer has to put a div with this id = flickrGallery in 
+          the intended div, in this case main-content.
+          The div has to have a defined size so the gallery can occupy it. -->
+        <div id="flickrGallery"></div>
+      </div>
+      <div class="footer bord-rad dark-color"><p>FOOTER</p></div>
+    </div>
+  </body>
+
+  <!-- The scripts to be imported -->
+  <script src="flickrGalleryComponent/js/flickrGalleryElementCreator.js"></script>
+  <script src="flickrGalleryComponent/js/flickrGallery.js"></script>
+  <script src="flickrGalleryComponent/js/flickrGalleryEventHandler.js"></script>
+  <script src="flickrGalleryComponent/js/flickrGalleryLocalStorage.js"></script>
+</html>
