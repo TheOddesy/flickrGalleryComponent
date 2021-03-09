@@ -15,7 +15,7 @@ p {
   border-radius: 0.4rem;
 }
 
-.dark-color {
+.bgcolor {
   background-color: rgba(22, 22, 29, 0.3);
   border: 3px solid transparent;
 }
